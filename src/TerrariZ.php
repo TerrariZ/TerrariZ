@@ -45,7 +45,7 @@ return $this->$API;
   }
 
 public function isInDevelopment(string $str) bool {
-  return $this->IsDevelopment();
+  return $this->$IsDevelopment();
 }
 
 
