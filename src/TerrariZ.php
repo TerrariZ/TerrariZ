@@ -1,6 +1,6 @@
 <?php
 
-namespace TerrariaZ;
+namespace TerrariZ;
 
 
 class TerrariZ {
