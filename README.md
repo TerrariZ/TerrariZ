@@ -1,4 +1,4 @@
 # Welcome to TerrariZ
 
-(!Activity)
+[!Activity]
 [https://img.shields.io/github/commit-activity/w/TerrariZ/TerrariZ?style=flat-square]
