@@ -41,7 +41,7 @@ public function isServerOn(ServerStartEvent $start , ServerStopEvent $stop, Even
 		throw new Exception("Server is Stated off and On?");
 		
 	}
-	
+	// INTERNAL WAY TO KEEP SERVER ON BUT DISPLAY ONLINE?
 		if ($stopped === true and $started === false){
 		
 		return false;
