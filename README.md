@@ -1,2 +1,3 @@
-# TerrariZ
-TerrariZ is a Custom Built Terraria Software in PhP
+# Welcome To TerrariZ 
+
+Development Branch for Major Changes or New Files
