@@ -1,5 +1,3 @@
 # Welcome To TerrariZ 
 
-mainly constructed this branch at school
-
-piecing it together at home
+Development Branch for Major Changes or New Files
