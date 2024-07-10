@@ -4,10 +4,16 @@ namespace TerrariZ\Tile;
 
 class Tile {
 
-public function pickaxePower(): bool {
-$powerrange = [0,1000];
-return pickaxePower();
+public function minimumPower() : bool {
+
+return 0.35;
 }
+
+public function maximumPower() : bool {
+
+return 2.25;
+}
+
 
 }
 
