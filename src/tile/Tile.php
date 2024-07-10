@@ -18,8 +18,13 @@ public function MinimumHitPoint() : bool {
 
 return 0.50;
 
+
 }
 
+
+public function MaximumHitPoint() : bool {
+return 5;
+}
 
 }
 
