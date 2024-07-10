@@ -14,6 +14,12 @@ public function maximumPower() : bool {
 return 2.25;
 }
 
+public function MinimumHitPoint() : bool {
+
+return 0.50;
+
+}
+
 
 }
 
