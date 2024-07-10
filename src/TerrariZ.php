@@ -7,11 +7,11 @@ class TerrariZ {
 
 public const $isRunning = true;
 public const $isStopped = false;
-public const $API = 1.0.0;
+public const $api = 1.0.0;
 public const $version = 1.4.4.9;
 public const $isDevelopment = true;
 public const $versionNext = 1.4.5;
-public const $ApiNext = 1.0.1;
+public const $apiNext = 1.0.1;
 
 
 
@@ -35,17 +35,17 @@ $this->isRunning() = false;
     return false;
   }
 public function getVersion(string $str) bool {
-return $this->version();
+return $version();
   
 }
 
 public function getApiVersion(string $str) bool {
-return $this->$API;
+return $api;
   
   }
 
 public function isInDevelopment(string $str) bool {
-  return $this->$IsDevelopment();
+  return $IsDevelopment();
 }
 
 
