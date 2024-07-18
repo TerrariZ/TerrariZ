@@ -6,6 +6,7 @@ use TerrariZ\event\Server\ServerStopEvent;
 use TerrariZ\event\EventManager;
 use TerrariZ\player\Player;
 use TerrariZ\utils\Logger;
+use TerrariZ\utils\TranslateTable;
 
 final class PlayerJoinEvent {
 public const $player = Player;
@@ -13,17 +14,28 @@ public const $logger = Logger;
 
 
 public function isServerWhitelisted() : bool {
-
-return $whitelist;
+return true;
 
 }
 
 public function isPlayerOnWhitelist(): bool {
 if ($isServerWhitelisted() === true){
 //TODO:: CHECK IF PLAYER IS ON WHITELIST;
-return $isPlayerOnWhitelist;
+/*
+if (!$Player->isWhitelisted()) {
+return true;
+}
+
+else {
+return false;
 
 }
+*/
+
+return false;
+
+}
+
 
 public function isServerOn(ServerStartEvent $start , ServerStopEvent $stop, EventManager $event) : bool {
 	$stopped = $stop->isStopped();
