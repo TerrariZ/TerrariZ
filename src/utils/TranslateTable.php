@@ -3,7 +3,9 @@ namespace TerrariZ\TranslateTable;
 
 
 final class TranslateTable {
-public const Table =[
+
+//Call like so: TranslateTable::ServerOffline  
+public const TranslateTable =[
 
 [ServerOffline = "Server is Offline"],
 [ServerWhitelisted = "Server is Whitelisted"],
